@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('service2.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: #000000;
+}
+
+header {
+     /* Semi-transparent dark background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Space between nav items */
+}
+
+nav ul li a {
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underline */
+ font-weight: bold; /* Bold text for nav links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+.service-package,
+.schedule,
+.things-to-carry,
+.social-media {
+    /* Semi-transparent white background */
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 8px; /* Rounded corners */
+    color: #ffffff;
+}
+
+h2 {
+    color: #f5fbff; /* Blue color for section headings */
+}
+
+h3 {
+    color: #ffffff; /* Darker color for subsection headings */
+}
+
+ul {
+    list-style-type: disc; /* Bullet points for lists */
+    padding-left: 20px; /* Indent list */
+}
+
+ul li {
+    margin: 5px 0; /* Space between list items */
+}
+
+.social-media a {
+    color: #f8fbfd; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-media a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(44, 62, 80, 0.8); /* Semi-transparent dark background */
+  
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
